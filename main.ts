@@ -338,6 +338,7 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     )
 })
 let mySprite: Sprite = null
+let name = game.askForString("what is your name?")
 mySprite = sprites.create(img`
     . . . . f f f f . . . . 
     . . f f e e e e f f . . 
